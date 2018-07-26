@@ -1,0 +1,112 @@
+BORDER = RECTANGLE
+
+
+[iconX] = 0.5
+[iconW] = 1.5
+[iconH] = 1.5
+
+[nameX] = 2.5
+[nameW] = 2.25
+[nameH] = 1
+
+
+
+MACRO = title, (rng), (imgName), (title)
+  FONT = "Arial", 12, , #000000
+  IMAGE = (rng), (imgName), [iconX], 0.5, [iconW], [iconH]
+  TEXT = (rng), (title), [nameX], 0.75, [nameW], [nameH], left, wwcenter
+END
+
+MACRO = title2, (rng), (imgName), (title)
+  [vertLoc] = 4.5
+  FONT = "Arial", 12, , #000000
+  IMAGE = (rng), (imgName), [iconX], 4.5, [iconW], [iconH]
+  TEXT = (rng), (title), [nameX], 4.75, [nameW], [nameH], left, wwcenter
+END
+
+[descX] = 0.5
+[descW] = 4.5
+
+MACRO = description, (rng), (text)
+  [vertLoc] = 2.5
+  FONT = "Arial", 12, , #000000
+  TEXT = (rng), (text), [descX], [vertLoc], [descW], 2, left , wordwrap
+END
+
+MACRO = description2, (rng), (text)
+  [vertLoc] = 6.5
+  FONT = "Arial", 12, , #000000
+  TEXT = (rng), (text), [descX], [vertLoc], [descW], 1.5, left, wordwrap
+END
+
+MACRO = fromGame, (rng), (gameName)
+  FONT = "Arial", 8, , #000000
+  TEXT = (rng), (gameName), 4, 8, 2, 1
+END
+
+; ================== BASE GAME ==========================
+fromGame = "1-8", "Base"
+
+title = "1", "Barn.png", "Barn"
+description = "1", "Move an existing settlement to a hex of the same terrain type as your played card"
+
+title = "2", "Farm.png", "Farm"
+description = "2", "Build a settlement on a grass hex"
+
+title = "3", "Harbor.png", "Harbor"
+description = "3", "Move one of your existing settlements to a water hex"
+
+title = "4", "Oasis.png", "Oasis"
+description = "4", "Build one settlement on a desert hex"
+
+title = "5", "Oracle.png", "Oracle"
+description = "5", "Build one settlement on the same terrain type as your played card"
+
+title = "6", "Paddock.png", "Paddock"
+description = "6", "Move one of your existing settlements 2 hexes in a straight line"
+
+title = "7", "Tavern.png", "Tavern"
+description = "7", "Build a settlement at the end of a line of 3 or more of your own settlements"
+
+title = "8", "Tower.png", "Tower"
+description = "8", "Build a settlement at the edge of the game board"
+
+; ==================== NOMADS ===========================
+
+fromGame = "9-12", "Nomads"
+
+title = "9", "Caravan.png", "Caravan"
+description = "9", "Move an existing settlement in a straight line until it is blocked by an obstacle"
+
+title = "10", "Quarry.png", "Quarry"
+description = "10", "Build 1 or 2 stone walls on the same terrain type as your played card"
+
+title = "11", "Garden.png", "Garden"
+description = "11", "Build one settlement on a flower space"
+
+title = "12", "Village.png", "Village"
+description = "12", "Build one settlement adjacent to at least 3 of your settlements"
+
+; ================== CROSSROADS =========================
+
+fromGame = "13-16", "Crossroads"
+
+title = "13", "Lighthouse.png", "Lighthouse"
+description = "13", "Place or remove your ship, or move your ship up to 3 spaces"
+title2 = "13", "ForesterLodge.png", "Forester's Lodge"
+description2 = "13", "Build one settlement on a forest space"
+
+title = "14", "Wagon.png", "Wagon"
+description = "14", "Place or remove your wagon, ore move your wagon up to 3 spaces"
+title2 = "14", "Monastery.png", "Monastery"
+description2 = "14", "Build one settlement on a canyon space"
+
+title = "15", "Barracks.png", "Barracks"
+description = "15", "Place or remove one of your warriors"
+title2 = "15", "Crossroads.png", "Crossroads"
+description2 = "15", "Draw one additional terrain card at the end of each turn"
+
+title = "16", "Fort.png", "Fort"
+description = "16", "Draw a terrain card and build one settlement on the terrain type shown"
+title2 = "16", "CityHall.png", "City Hall"
+description2 = "16", "Place your city hall tile"
