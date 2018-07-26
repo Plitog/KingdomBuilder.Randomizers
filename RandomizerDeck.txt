@@ -1,6 +1,5 @@
 BORDER = RECTANGLE
 
-
 [iconX] = 0.5
 [iconW] = 1.5
 [iconH] = 1.5
@@ -8,7 +7,6 @@ BORDER = RECTANGLE
 [nameX] = 2.5
 [nameW] = 2.25
 [nameH] = 1
-
 
 
 MACRO = title, (rng), (imgName), (title)
@@ -48,7 +46,7 @@ END
 fromGame = "1-8", "Base"
 
 title = "1", "Barn.png", "Barn"
-description = "1", "Move an existing settlement to a hex of the same terrain type as your played card"
+description = "1", "Move one of your existing settlements to a hex of the same terrain type as your played card"
 
 title = "2", "Farm.png", "Farm"
 description = "2", "Build a settlement on a grass hex"
@@ -82,7 +80,7 @@ title = "10", "Quarry.png", "Quarry"
 description = "10", "Build 1 or 2 stone walls on the same terrain type as your played card"
 
 title = "11", "Garden.png", "Garden"
-description = "11", "Build one settlement on a flower space"
+description = "11", "Build one settlement on a flower field space"
 
 title = "12", "Village.png", "Village"
 description = "12", "Build one settlement adjacent to at least 3 of your settlements"
@@ -97,7 +95,7 @@ title2 = "13", "ForesterLodge.png", "Forester's Lodge"
 description2 = "13", "Build one settlement on a forest space"
 
 title = "14", "Wagon.png", "Wagon"
-description = "14", "Place or remove your wagon, ore move your wagon up to 3 spaces"
+description = "14", "Place or remove your wagon, or move your wagon up to 3 spaces"
 title2 = "14", "Monastery.png", "Monastery"
 description2 = "14", "Build one settlement on a canyon space"
 
@@ -110,3 +108,27 @@ title = "16", "Fort.png", "Fort"
 description = "16", "Draw a terrain card and build one settlement on the terrain type shown"
 title2 = "16", "CityHall.png", "City Hall"
 description2 = "16", "Place your city hall tile"
+
+; ================== MARSHLANDS =========================
+
+fromGame = "17-20", "Marshlands"
+
+title = "17", "Canoe.png", "Canoe"
+description = "17", "Build one settlement on swamp or water, after another player clears a tile space"
+title2 = "17", "Canoe-bonus.png", "Bonus"
+description2 = "17", "Build one settlement on a swamp or water space"
+
+title = "18", "Fountain.png", "Fountain"
+description = "18", "Build one settlement next to exactly one of your settlements and no opponent settlement"
+title2 = "18", "Fountain-bonus.png", "Bonus"
+description2 = "18", "Build this bonus on a mountain space"
+
+title = "19", "Temple.png", "Temple"
+description = "19", "Remove a settlement. Build it next turn along with your other required builds"
+title2 = "19", "Temple-bonus.png", "Bonus"
+description2 = "19", "Your first mandatory build can be in any valid space"
+
+title = "20", "Refuge.png", "Refuge"
+description = "20", "Relocate a previously built settlement to an adjacent hex"
+title2 = "20", "Refuge-bonus.png", "Bonus"
+description2 = "20", "Move a settlement in a straight line to the next suitable hex"
