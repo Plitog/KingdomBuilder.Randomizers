@@ -1,0 +1,1 @@
+This is a set of board randomizers for the boardgame [Kingdom Builder](https://www.boardgamegeek.com/boardgame/107529/kingdom-builder).  The PDF is generates using [nanDeck](http://www.nand.it/nandeck).
