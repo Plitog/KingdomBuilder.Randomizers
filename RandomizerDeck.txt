@@ -45,90 +45,90 @@ END
 ; ================== BASE GAME ==========================
 fromGame = "1-8", "Base"
 
-title = "1", "Barn.png", "Barn"
+title = "1", "Base\Barn.png", "Barn"
 description = "1", "Move one of your existing settlements to a hex of the same terrain type as your played card"
 
-title = "2", "Farm.png", "Farm"
+title = "2", "Base\Farm.png", "Farm"
 description = "2", "Build a settlement on a grass hex"
 
-title = "3", "Harbor.png", "Harbor"
+title = "3", "Base\Harbor.png", "Harbor"
 description = "3", "Move one of your existing settlements to a water hex"
 
-title = "4", "Oasis.png", "Oasis"
+title = "4", "Base\Oasis.png", "Oasis"
 description = "4", "Build one settlement on a desert hex"
 
-title = "5", "Oracle.png", "Oracle"
+title = "5", "Base\Oracle.png", "Oracle"
 description = "5", "Build one settlement on the same terrain type as your played card"
 
-title = "6", "Paddock.png", "Paddock"
+title = "6", "Base\Paddock.png", "Paddock"
 description = "6", "Move one of your existing settlements 2 hexes in a straight line"
 
-title = "7", "Tavern.png", "Tavern"
+title = "7", "Base\Tavern.png", "Tavern"
 description = "7", "Build a settlement at the end of a line of 3 or more of your own settlements"
 
-title = "8", "Tower.png", "Tower"
+title = "8", "Base\Tower.png", "Tower"
 description = "8", "Build a settlement at the edge of the game board"
 
 ; ==================== NOMADS ===========================
 
 fromGame = "9-12", "Nomads"
 
-title = "9", "Caravan.png", "Caravan"
+title = "9", "Nomads\Caravan.png", "Caravan"
 description = "9", "Move an existing settlement in a straight line until it is blocked by an obstacle"
 
-title = "10", "Quarry.png", "Quarry"
+title = "10", "Nomads\Quarry.png", "Quarry"
 description = "10", "Build 1 or 2 stone walls on the same terrain type as your played card"
 
-title = "11", "Garden.png", "Garden"
+title = "11", "Nomads\Garden.png", "Garden"
 description = "11", "Build one settlement on a flower field space"
 
-title = "12", "Village.png", "Village"
+title = "12", "Nomads\Village.png", "Village"
 description = "12", "Build one settlement adjacent to at least 3 of your settlements"
 
 ; ================== CROSSROADS =========================
 
 fromGame = "13-16", "Crossroads"
 
-title = "13", "Lighthouse.png", "Lighthouse"
+title = "13", "Crossroads\Lighthouse.png", "Lighthouse"
 description = "13", "Place or remove your ship, or move your ship up to 3 spaces"
-title2 = "13", "ForesterLodge.png", "Forester's Lodge"
+title2 = "13", "Crossroads\ForesterLodge.png", "Forester's Lodge"
 description2 = "13", "Build one settlement on a forest space"
 
-title = "14", "Wagon.png", "Wagon"
+title = "14", "Crossroads\Wagon.png", "Wagon"
 description = "14", "Place or remove your wagon, or move your wagon up to 3 spaces"
-title2 = "14", "Monastery.png", "Monastery"
+title2 = "14", "Crossroads\Monastery.png", "Monastery"
 description2 = "14", "Build one settlement on a canyon space"
 
-title = "15", "Barracks.png", "Barracks"
+title = "15", "Crossroads\Barracks.png", "Barracks"
 description = "15", "Place or remove one of your warriors"
-title2 = "15", "Crossroads.png", "Crossroads"
+title2 = "15", "Crossroads\Crossroads.png", "Crossroads"
 description2 = "15", "Draw one additional terrain card at the end of each turn"
 
-title = "16", "Fort.png", "Fort"
+title = "16", "Crossroads\Fort.png", "Fort"
 description = "16", "Draw a terrain card and build one settlement on the terrain type shown"
-title2 = "16", "CityHall.png", "City Hall"
+title2 = "16", "Crossroads\CityHall.png", "City Hall"
 description2 = "16", "Place your city hall tile"
 
 ; ================== MARSHLANDS =========================
 
 fromGame = "17-20", "Marshlands"
 
-title = "17", "Canoe.png", "Canoe"
+title = "17", "Marshlands\Canoe.png", "Canoe"
 description = "17", "Build one settlement on swamp or water, after another player clears a tile space"
-title2 = "17", "Canoe-bonus.png", "Bonus"
+title2 = "17", "Marshlands\Canoe-bonus.png", "Bonus"
 description2 = "17", "Build one settlement on a swamp or water space"
 
-title = "18", "Fountain.png", "Fountain"
+title = "18", "Marshlands\Fountain.png", "Fountain"
 description = "18", "Build one settlement next to exactly one of your settlements and no opponent settlement"
-title2 = "18", "Fountain-bonus.png", "Bonus"
+title2 = "18", "Marshlands\Fountain-bonus.png", "Bonus"
 description2 = "18", "Build this bonus on a mountain space"
 
-title = "19", "Temple.png", "Temple"
+title = "19", "Marshlands\Temple.png", "Temple"
 description = "19", "Remove a settlement. Build it next turn along with your other required builds"
-title2 = "19", "Temple-bonus.png", "Bonus"
+title2 = "19", "Marshlands\Temple-bonus.png", "Bonus"
 description2 = "19", "Your first mandatory build can be in any valid space"
 
-title = "20", "Refuge.png", "Refuge"
+title = "20", "Marshlands\Refuge.png", "Refuge"
 description = "20", "Relocate a previously built settlement to an adjacent hex"
-title2 = "20", "Refuge-bonus.png", "Bonus"
+title2 = "20", "Marshlands\Refuge-bonus.png", "Bonus"
 description2 = "20", "Move a settlement in a straight line to the next suitable hex"
