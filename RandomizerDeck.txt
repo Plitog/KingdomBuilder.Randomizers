@@ -26,13 +26,13 @@ END
 [descW] = 4.5
 
 MACRO = description, (rng), (text)
-  [vertLoc] = 2.5
+  [vertLoc] = 2.2
   FONT = "Arial", 12, , #000000
   TEXT = (rng), (text), [descX], [vertLoc], [descW], 2, left , wordwrap
 END
 
 MACRO = description2, (rng), (text)
-  [vertLoc] = 6.5
+  [vertLoc] = 6.2
   FONT = "Arial", 12, , #000000
   TEXT = (rng), (text), [descX], [vertLoc], [descW], 1.5, left, wordwrap
 END
@@ -46,7 +46,7 @@ END
 fromGame = "1-8", "Base"
 
 title = "1", "Base\Barn.png", "Barn"
-description = "1", "Move one of your existing settlements to a hex of the same terrain type as your played card"
+description = "1", "Move an existing settlements to a hex of the same terrain type as your played card"
 
 title = "2", "Base\Farm.png", "Farm"
 description = "2", "Build a settlement on a grass hex"
@@ -61,7 +61,7 @@ title = "5", "Base\Oracle.png", "Oracle"
 description = "5", "Build one settlement on the same terrain type as your played card"
 
 title = "6", "Base\Paddock.png", "Paddock"
-description = "6", "Move one of your existing settlements 2 hexes in a straight line"
+description = "6", "Move/jump one of your existing settlements 2 hexes in a straight line"
 
 title = "7", "Base\Tavern.png", "Tavern"
 description = "7", "Build a settlement at the end of a line of 3 or more of your own settlements"
@@ -132,3 +132,26 @@ title = "20", "Marshlands\Refuge.png", "Refuge"
 description = "20", "Relocate a previously built settlement to an adjacent hex"
 title2 = "20", "Marshlands\Refuge-bonus.png", "Bonus"
 description2 = "20", "Move a settlement in a straight line to the next suitable hex"
+
+; ================== HARVEST =========================
+fromGame = "21-24", "Harvest"
+
+title = "21", "Harvest\Bazaar.png", "Bazaar"
+description = "21", "Repeat any other extra action"
+title2 = "21", "Harvest\WaterMill.png", "Water Mill"
+description2 = "21", "Build one settlement next to a water space"
+
+title = "22", "Harvest\ScoutCabin.png", "Scout Cabin"
+description = "22", "Place both scout tiles on any suitable terrain, water or mountain spaces"
+title2 = "22", "Harvest\MountainStation.png", "Mountain Station"
+description2 = "22", "Build one settlement next to a mountain space"
+
+title = "23", "Harvest\Cathedral.png", "Cathedral"
+description = "23", "Take one number tile, or return any number of tiles to place settlements"
+title2 = "23", "Harvest\Watchtower.png", "Watchtower"
+description2 = "23", "Build one settlement next to another player's settlement"
+
+title = "24", "Harvest\Palisade.png", "Palisade"
+description = "24", "Move a settlement to a suitable terrain space connected to the same settlement area"
+title2 = "24", "Harvest\University.png", "University"
+description2 = "24", "Build one settlement next to a location"
