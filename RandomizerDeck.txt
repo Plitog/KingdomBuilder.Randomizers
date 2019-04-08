@@ -51,20 +51,35 @@ description = "1", "Move an existing settlements to a hex of the same terrain ty
 title = "2", "Base\Farm.png", "Farm"
 description = "2", "Build a settlement on a grass hex"
 
-title = "3", "Base\Harbor.png", "Harbor"
-description = "3", "Move one of your existing settlements to a water hex"
+; Variables to re-use with Island & Capitol cards
+[harborImage] = "Base\Harbor.png"
+[harborTitle] = "Harbor"
+[harborText] = "Move one of your existing settlements to a water hex"
+
+title = "3", [harborImage], [harborTitle]
+description = "3", [harborText]
 
 title = "4", "Base\Oasis.png", "Oasis"
 description = "4", "Build one settlement on a desert hex"
 
-title = "5", "Base\Oracle.png", "Oracle"
-description = "5", "Build one settlement on the same terrain type as your played card"
+; Variables to re-use with Capitol
+[oracleImage] = "Base\Oracle.png"
+[oracleTitle] = "Oracle"
+[oracleText] = "Build one settlement on the same terrain type as your played card"
+
+title = "5", [oracleImage], [oracleTitle]
+description = "5", [oracleText]
 
 title = "6", "Base\Paddock.png", "Paddock"
 description = "6", "Move/jump one of your existing settlements 2 hexes in a straight line"
 
-title = "7", "Base\Tavern.png", "Tavern"
-description = "7", "Build a settlement at the end of a line of 3 or more of your own settlements"
+; Variables to re-use with Cave
+[tavernImage] = "Base\Tavern.png"
+[tavernTitle] = "Tavern"
+[tavernText] = "Build a settlement at the end of a line of 3 or more of your own settlements"
+
+title = "7", [tavernImage], [tavernTitle]
+description = "7", [tavernText]
 
 title = "8", "Base\Tower.png", "Tower"
 description = "8", "Build a settlement at the edge of the game board"
@@ -114,14 +129,14 @@ description2 = "16", "Place your city hall tile"
 fromGame = "17-20", "Marshlands"
 
 title = "17", "Marshlands\Canoe.png", "Canoe"
-description = "17", "Build one settlement on swamp or water, after another player clears a tile space"
+description = "17", "Build one settlement on swamp or water, after another player clears a location tile space"
 title2 = "17", "Marshlands\Canoe-bonus.png", "Bonus"
 description2 = "17", "Build one settlement on a swamp or water space"
 
 title = "18", "Marshlands\Fountain.png", "Fountain"
 description = "18", "Build one settlement next to exactly one of your settlements and no opponent settlement"
 title2 = "18", "Marshlands\Fountain-bonus.png", "Bonus"
-description2 = "18", "Build this bonus on a mountain space"
+description2 = "18", "Build this bonus on a mountain space instead"
 
 title = "19", "Marshlands\Temple.png", "Temple"
 description = "19", "Remove a settlement. Build it next turn along with your other required builds"
@@ -155,3 +170,59 @@ title = "24", "Harvest\Palisade.png", "Palisade"
 description = "24", "Move a settlement to a suitable terrain space connected to the same settlement area"
 title2 = "24", "Harvest\University.png", "University"
 description2 = "24", "Build one settlement next to a location"
+
+; ================== ISLAND =========================
+fromGame = "25-26", "Island"
+
+title = "25", "Promos\RopeBridge.png", "Rope Bridge"
+description = "25", "Move a settlement to a canyon space"
+
+title = "26", "Promos\TreeHouse.png", "Tree House"
+description = "26", "Move a settlement to a forest space"
+
+fromGame = "27-28", "Base + Island"
+
+title = "27", "Promos\RopeBridge.png", "Rope Bridge"
+description = "27", "Move a settlement to a canyon space"
+title2 = "27", [harborImage], [harborTitle]
+description2 = "27", [harborText]
+
+title = "28", "Promos\TreeHouse.png", "Tree House"
+description = "28", "Move a settlement to a forest space"
+title2 = "28", [harborImage], [harborTitle]
+description2 = "28", [harborText]
+
+; ================== CAPITOL =========================
+fromGame = "29", "Capitol"
+
+[capitolText] = "One point for each settlement within 2 spaces"
+
+title = "29", "Promos\Capitol.png", "Capitol"
+description = "29", [capitolText]
+
+fromGame = "30-31", "Base + Capitol"
+
+title = "30", "Promos\Capitol.png", "Capitol"
+description = "30", [capitolText]
+title2 = "30", [harborImage], [harborTitle]
+description2 = "30", [harborText]
+
+title = "31", "Promos\Capitol.png", "Capitol"
+description = "31", [capitolText]
+title2 = "31", [oracleImage], [oracleTitle]
+description2 = "31", [oracleText]
+
+; ================== CAVE =========================
+fromGame = "32", "Cave"
+
+[caveText] = "Move an adjacent settlement to a suitable hex adjacent to any cave"
+
+title = "32", "Promos\Cave.png", "Cave"
+description = "32", [caveText]
+
+fromGame = "33", "Base + Cave"
+
+title = "33", "Promos\Cave.png", "Cave"
+description = "33", [caveText]
+title2 = "33", [tavernImage], [tavernTitle]
+description2 = "33", [tavernText]
